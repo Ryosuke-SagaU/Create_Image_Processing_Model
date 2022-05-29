@@ -7,9 +7,12 @@ def main():
     data_dir_pass_in = 'C:\\Users\\Ryosuke Nikushi\\PycharmProjects\\model_demo\\circle_image\\in'
     file_list = os.listdir('C:\\Users\\Ryosuke Nikushi\\PycharmProjects\\model_demo\\circle_image\\in')
 
+    # count を増やしている意味
+    # 1つの画像で１０個の処理をやって連番を振ってるだけ
     count: int = 1
     for file_name in file_list:
-        root, ext = os.path.splitext(file_name)
+        # root が別に必要なかった
+        ext = os.path.splitext(file_name)
         if ext == '.png' or '.jpeg' or '.jpg':
 
             # 画像を読み込んで、変換して、変換した画像を保存する。で、カウントを増大させる
