@@ -1,6 +1,6 @@
 import json
 
-file_name = './out.json'
+file_name = './json/raw'
 class_list = {'circle':0}
 
 with open(file_name) as f:
@@ -72,7 +72,7 @@ with open(file_name) as f:
 
         # 1つずつJsonファイルとして保存している
         # w で指定すると、ファイルの新規書き込みが行われる
-        f = open('./json/' + '{0:04d}'.format(k + 1) + '.json', 'w')
+        f = open('./json/raw' + '{0:04d}'.format(k + 1) + '.json', 'w')
 
         # 定義したものをJson Format に対応させる
         json.dump(line, f)

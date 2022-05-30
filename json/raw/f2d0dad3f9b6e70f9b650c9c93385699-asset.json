@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "f2d0dad3f9b6e70f9b650c9c93385699",
+        "name": "0070.png",
+        "path": "file:C:/Users/Ryosuke%20Nikushi/Documents/out/0070.png",
+        "size": {
+            "width": 1152,
+            "height": 648
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "9Cva0SdPL",
+            "type": "RECTANGLE",
+            "tags": [
+                "circle"
+            ],
+            "boundingBox": {
+                "height": 196.68272727272728,
+                "width": 431.1165644171779,
+                "left": 346.3067484662577,
+                "top": 451.3172727272727
+            },
+            "points": [
+                {
+                    "x": 346.3067484662577,
+                    "y": 451.3172727272727
+                },
+                {
+                    "x": 777.4233128834356,
+                    "y": 451.3172727272727
+                },
+                {
+                    "x": 777.4233128834356,
+                    "y": 648
+                },
+                {
+                    "x": 346.3067484662577,
+                    "y": 648
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
